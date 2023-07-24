@@ -42,14 +42,8 @@ function Section({children, title}: SectionProps): JSX.Element {
         ]}>
         {title}
       </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
+      <Text>
+        `Super test`
       </Text>
     </View>
   );
